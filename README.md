@@ -29,13 +29,26 @@
   - VIA: 如果烧录的固件代码支持via改键的可以用，我没用
 
 - 网站
-  - [https://kbfirmware.com/](https://kbfirmware.com/) : 常规的一体键盘可以用它来生成固件代码，分体不行
-  - [http://www.keyboard-layout-editor.com/#/](http://www.keyboard-layout-editor.com/#/) : 搭配kbfirmware用，生成布局的json，可以用来画个草图
-  - [https://docs.qmk.fm/#/keycodes?id=keycodes-overview](https://docs.qmk.fm/#/keycodes?id=keycodes-overview) : QMK 文档
-  - [https://www.printables.com/model](https://www.printables.com/model) : 3D模型图纸下载
-  - [https://www.thingiverse.com/](https://www.thingiverse.com/) : 3D模型图纸下载
-  - [https://github.com/gsihaj5/qmk_firmware](https://github.com/gsihaj5/qmk_firmware) : QMK 源码
-  - [https://github.com/sparkfun/SF32u4_boards](https://github.com/sparkfun/SF32u4_boards) 32U4的引导程序固件
+  - [https://kbfirmware.com/](https://kbfirmware.com/) 
+    - 常规的一体键盘可以用它来生成固件代码，分体不行
+  - [http://www.keyboard-layout-editor.com/#/](http://www.keyboard-layout-editor.com/#/) 
+    - 搭配kbfirmware用，生成布局的json，可以用来画个草图
+  - [https://docs.qmk.fm/#/keycodes?id=keycodes-overview](https://docs.qmk.fm/#/keycodes?id=keycodes-overview) 
+    - QMK 文档
+  - [https://www.printables.com/model](https://www.printables.com/model) 
+    - 3D模型图纸下载
+  - [https://www.thingiverse.com/](https://www.thingiverse.com/) 
+    - 3D模型图纸下载
+  - [https://github.com/gsihaj5/qmk_firmware](https://github.com/gsihaj5/qmk_firmware) 
+    - QMK 源码
+  - [https://github.com/sparkfun/SF32u4_boards](https://github.com/sparkfun/SF32u4_boards) 
+    - 32U4的引导程序固件
+  - [https://www.printables.com/model/540985-corne-keyboard-high-profile-case-with-integrated-p](https://www.printables.com/model/540985-corne-keyboard-high-profile-case-with-integrated-p) 
+    - 我自己用的模型，另一个模型名字叫dactyl，找不到图纸了，去搜关键字
+  - [https://www.printables.com/model/34277-custumizable-solderless-wire-termination-with-pin-](https://www.printables.com/model/34277-custumizable-solderless-wire-termination-with-pin-) 
+    - 可以用来固定主控，打印高度50%，然后主控的引脚剪断一半，就刚刚好了，再配合点502胶水什么的
+  - [https://www.printables.com/model/432013-dactyl-cc-v2-promicro-holder](https://www.printables.com/model/432013-dactyl-cc-v2-promicro-holder)
+    - 也是用来固定主控的，但是用在dactyl的模型上
 
 ### 开工
 #### 编译固件源码
