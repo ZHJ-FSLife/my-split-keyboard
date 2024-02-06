@@ -1,0 +1,1 @@
+C:\Users\root\qmk_firmware\keyboards\splitkb\aurora\corne\keymaps\custom_01\keymap.json
