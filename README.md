@@ -56,6 +56,8 @@
     - 可以用来固定主控，打印高度50%，然后主控的引脚剪断一半，就刚刚好了，再配合点502胶水什么的
   - [https://www.printables.com/model/432013-dactyl-cc-v2-promicro-holder](https://www.printables.com/model/432013-dactyl-cc-v2-promicro-holder)
     - 也是用来固定主控的，但是用在dactyl的模型上
+  - [https://monkeytype.com/](https://monkeytype.com/)
+    - 打字用的，拿来熟悉键盘
 
 ### 开工
 #### 编译固件源码
