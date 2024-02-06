@@ -1,4 +1,5 @@
-# my-split-keyboard
+# my-split-keyboard 
+![Visitor count](https://profile-counter.glitch.me/my-split-keyboard/count.svg)
 
 ### 成品展示
 <img src='./images/split-keyboard.jpg' style='width:800px;'>
