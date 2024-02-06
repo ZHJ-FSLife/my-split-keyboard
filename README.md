@@ -2,6 +2,7 @@
 
 ### 成品展示
 <img src='./images/split-keyboard.jpg' style='width:800px;'>
+<img src='./images/键位布局.jpg' style='width:800px'>
 
 ### 准备
 - 硬件：
@@ -34,5 +35,46 @@
   - [https://www.printables.com/model](https://www.printables.com/model) : 3D模型图纸下载
   - [https://www.thingiverse.com/](https://www.thingiverse.com/) : 3D模型图纸下载
   - [https://github.com/gsihaj5/qmk_firmware](https://github.com/gsihaj5/qmk_firmware) : QMK 源码
+  - [https://github.com/sparkfun/SF32u4_boards](https://github.com/sparkfun/SF32u4_boards) 32U4的引导程序固件
 
-### 
+### 开工
+#### 编译固件源码
+
+<img src='./images/qmk-github.png' style='width:800px'>
+
+- 安装QMK MSYS， qmk源码有很多固件源码，我是拿了splitkb/aurora/corne来改的
+
+[keymaps](./splitkb/aurora/corne/keymaps/custom_01/keymap.json)
+
+<img src='./images/my-qmk.png' style='width:800px'>
+
+- QMK MSYS执行命令生成固件： qmk compile -kb splitkb/aurora/corne -km custom_01
+- 全【ok】就没问题啦
+
+<img src='./images/编译固件源码.png' style='width:800px'>
+
+- 得到固件文件： splitkb_aurora_corne_rev1_custom_01.hex
+
+#### 烧录引导程序
+- 接线
+
+<img src='./images/USBISP下载器.jpg' style='width:300px'>
+<img src='./images/下载器接线.jpg' style='width:500px'>
+
+- 接入pc，打开软件avrdudess, 把引导程序【Caterina-promicro16.hex】烧录进去
+> 直接看着我的配置吧
+
+<img src='./images/avrdudess.png' style='width:800px'>
+
+- 换数据线，接上主控32u4，把固件【splitkb_aurora_corne_rev1_custom_01.hex】烧录进去
+
+<img src='./images/qmk-toolbox.png' style='width:800px'>
+
+#### 测试、接线
+
+<img src='./images/引脚配置.png' style='width:800px'>
+<img src='./images/ProMicro32U4引脚图.jpg' style='width:800px'>
+<img src='./images/耳机线.jpg' style='width:800px'>
+<img src='./images/耳机线连接两个主控.jpg' style='width:800px'>
+<img src='./images/打印.jpg' style='width:800px'>
+<img src='./images/焊接-走线.jpg' style='width:800px'>
