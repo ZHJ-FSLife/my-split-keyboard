@@ -1,6 +1,8 @@
 # my-split-keyboard 
 ![Visitor count](https://profile-counter.glitch.me/my-split-keyboard/count.svg)
 
+<span style="color: red;">注：本人一点单片机基础都没有，只是网上各种找资料，一步步拼凑出来的，连焊锡都是现学的。 </span>
+
 ### 成品展示
 <img src='./images/split-keyboard.jpg' style='width:800px;'>
 
