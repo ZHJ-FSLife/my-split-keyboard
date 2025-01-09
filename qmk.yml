@@ -1,0 +1,12 @@
+services:
+  qmk:
+    image: jonz94/qmk_firmware:latest
+    container_name: qmk
+    volumes:
+      - ./qmk_firmware:/qmk_firmware
+    working_dir: /qmk_firmware
+    tty: true
+    stdin_open: true
+    environment:
+      - TERM=xterm-256color
+    command: bash
