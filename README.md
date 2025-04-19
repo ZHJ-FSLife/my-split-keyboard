@@ -104,6 +104,7 @@
 
 <img src='./images/引脚配置.png' style='width:800px'>
 <img src='./images/ProMicro32U4引脚图.jpg' style='width:800px'>
+<img src="./images/728a54c92e284d7d3b7c759cde4dc7d.png" style='width:800px'>
 <img src='./images/耳机线.jpg' style='width:800px'>
 <img src='./images/耳机线连接两个主控.jpg' style='width:800px'>
 <img src='./images/打印.jpg' style='width:800px'>
